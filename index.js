@@ -7,7 +7,8 @@ class Formatter {
 */
 
   static capitalize(str){
-    return str.charAt(0).toUpperCase + str.slice(1);
+    let capitalize = str.charAt(0).toUpperCase + str.slice(1);
+    capitalize;
   }
   static sanitize(str){
     
